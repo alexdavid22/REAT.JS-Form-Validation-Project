@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(195, 160, 160);
+}
+
+.card {
+  background-color: rgb(196, 195, 195);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  height: 300px;
+}
+
+.card-image {
+  background: url("https://img.freepik.com/free-vector/abstract-watercolor-background_91008-108.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702425600&semt=ais");
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(34, 34, 34);
+  outline: none;
+}
+
+.error {
+  font-family: sans-serif;
+  color: red;
+}
+
+.submit-btn {
+  width: 80%;
+  margin-top: 20px;
+  background: transparent;
+  background: rgb(9, 76, 153);
+  cursor: pointer;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 30px;
+}
